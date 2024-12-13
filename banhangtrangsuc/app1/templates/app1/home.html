@@ -1,0 +1,11 @@
+{% extends 'app1/base.html' %}
+
+{% load static %}
+
+{% block title %}Trang Chủ - Bán Hàng Trang Sức{% endblock %}
+
+{% block content %}
+    <h2>Chào mừng bạn đến với trang chủ của chúng tôi!</h2>
+    <img src="{% static 'app1/images/logo.png' %}" alt="Logo">
+    <p>Đây là nơi bạn có thể tìm thấy những món trang sức đẹp nhất!</p>
+{% endblock %}
