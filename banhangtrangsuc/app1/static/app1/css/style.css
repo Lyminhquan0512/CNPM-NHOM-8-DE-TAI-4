@@ -1,0 +1,63 @@
+footer {
+    background-color: #f8f9fa;
+    padding: 40px;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+    width: 30%;
+    padding: 10px;
+}
+
+.footer-left p {
+    margin: 10px 0;
+}
+
+.footer-center h4, .footer-right h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-center ul, .footer-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-center ul li, .footer-right ul li {
+    margin: 5px 0;
+}
+
+.footer-center ul li a, .footer-right ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-center ul li a:hover, .footer-right ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.payment-methods img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.footer-divider {
+    border: 0;
+    border-top: 3px solid black; /* Đặt đường viền màu đen */
+    width: 100%; /* Đường kẻ sẽ kéo dài từ đầu đến cuối */
+    margin: 1; /* Không có khoảng cách trên và dưới */
+}
+
